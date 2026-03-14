@@ -54,20 +54,11 @@ Objectifs :
 ## Scripts
 - `analyse_fifa.py` → script d’analyse et génération des graphiques.  
 - `fifa.csv` → dataset des joueurs.
-
-## Organisation du projet
-Voici la structure des fichiers du projet, pour savoir où trouver le script, le dataset et les images générées :
-
-fifa_project/
-│
-├── analyse_fifa.py          # Script Python pour l'analyse et les graphiques
-├── fifa.csv                 # Dataset des joueurs FIFA 
-└── images/                  # Dossier contenant tous les graphiques générés
-     ├── histogram_notes.png
-     ├── bar_position.png
-     ├── bar_top10_clubs.png
-     ├── scatter_rating_potential.png
-     ├── scatter_rating_value.png
-     ├── heatmap_poste_club.png
-     └── bar_top10_pays.png
-     
+- `images/` → Dossier contenant tous les graphiques générés par le script :  
+  - `histogram_notes.png` : Distribution des notes globales des joueurs.  
+  - `bar_position.png` : Note moyenne par poste.  
+  - `bar_top10_clubs.png` : Top 10 clubs par note moyenne.  
+  - `scatter_rating_potential.png` : Note globale vs potentiel.  
+  - `scatter_rating_value.png` : Note globale vs valeur (€M).  
+  - `heatmap_poste_club.png` : Heatmap des notes moyennes par poste et top 10 clubs.  
+  - `bar_top10_pays.png` : Top 10 pays par note moyenne.
